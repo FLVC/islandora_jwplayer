@@ -1,6 +1,8 @@
 jQuery(document).ready(function() {
   jwplayer("mediaplayer").setup({
     file: Drupal.settings.islandora_jwplayer.url,
-    image: Drupal.settings.islandora_jwplayer.thumbnail
+    image: Drupal.settings.islandora_jwplayer.thumbnail,
+    width: "100%",  
+    aspectratio: "4:3" 
   });
 });
