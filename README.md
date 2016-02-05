@@ -4,7 +4,7 @@
 
 A Islandora viewer module using [JW Player](http://www.jwplayer.com/).
 
-**NOTE**: JW Player is free for non comercial use.
+**NOTE**: JW Player is free for non commercial use.
 
 ## Requirements
 
@@ -19,7 +19,9 @@ This module requires the following modules/libraries:
 
 Install as usual, see [this](https://drupal.org/documentation/install/modules-themes/modules-7) for further information.
 
-Install the JW Player available [here](http://www.longtailvideo.com/jw-player/download/) to your `sites/libraries` folder.  This viewer has been tested with [jwplayer6](http://www.longtailvideo.com/download/jwplayer-free-6-1-2972.zip).
+Install the JW Player available [here](http://www.longtailvideo.com/jw-player/download/) to your `sites/all/libraries` folder.
+
+Note: You must register for an account with JWPlayer to download the library.
 
 ### Notes
 
@@ -27,7 +29,11 @@ This module has been updated to use jwplayer6. If you are updating this module f
 
 ## Configuration
 
-Select JW Player as a viewer in Administration » Islandora » Video Solution Pack (admin/islandora/video) and/or Administration » Islandora » Audio Collection (admin/islandora/audio).
+Select JW Player as a viewer in Administration » Islandora » Solution Pack Configuration » Video Solution Pack (admin/islandora/solution_pack_config/video) and/or Administration » Islandora » Solution Pack Configuration » Audio Solution Pack (admin/islandora/solution_pack_config/audio).
+
+## Documentation
+
+Further documentation for this module is available at [our wiki](https://wiki.duraspace.org/display/ISLANDORA/Islandora+JWPlayer).
 
 ## Troubleshooting/Issues
 
@@ -40,11 +46,11 @@ Having problems or solved a problem? Check out the Islandora google groups for a
 
 Current maintainers:
 
-* [Nick Ruest](https://github.com/ruebot)
+* [Jordan Dukart](https://github.com/jordandukart)
 
 ## Development
 
-If you would like to contribute to this module, please check out our helpful [Documentation for Developers](https://github.com/Islandora/islandora/wiki#wiki-documentation-for-developers) info, as well as our [Developers](http://islandora.ca/developers) section on the Islandora.ca site.
+If you would like to contribute to this module, please check out [CONTRIBUTING.md](CONTRIBUTING.md). In addition, we have helpful [Documentation for Developers](https://github.com/Islandora/islandora/wiki#wiki-documentation-for-developers) info, as well as our [Developers](http://islandora.ca/developers) section on the [Islandora.ca](http://islandora.ca) site.
 
 ## License
 
